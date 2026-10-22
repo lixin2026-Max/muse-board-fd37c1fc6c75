@@ -75,7 +75,8 @@ function render(d){
   document.getElementById("upd").textContent = "更新于 " + (d.updated_human || "—");
   var card = document.getElementById("jobCard"), j = d.job;
   if(!j){
-    card.innerHTML = '<div class="idle">' + (d.bridge && d.bridge.online ? "桥在线 · 当前没有在跑的单" : "桥离线 · 电脑休息中") + "</div>";
+    card.innerHTML = '<div class="idle">' + (d.bridge && d.bridge.online ? "桥在线 · 当前没有在跑的单" :
+      "桥离线 · 电脑休息中<br><br>开工三步：<br>1. 开 Tailscale（桌面图标）<br>2. 开桥服务（桌面图标）<br>3. 在聊天里喊 Muse 一声") + "</div>";
   } else {
     var pct = (j.pct==null ? null : Math.round(j.pct));
     var stateTxt = {running:"生成中", done:"已完成", error:"出错", interrupted:"被中断"}[j.state] || j.state;
