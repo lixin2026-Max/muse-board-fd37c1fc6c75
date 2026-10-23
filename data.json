@@ -1,26 +1,30 @@
 {
- "updated_at": 1792676814,
- "updated_human": "21:46:54",
+ "updated_at": 1792735104,
+ "updated_human": "13:58:24",
  "bridge": {
-  "online": false
+  "online": true
  },
  "job": {
-  "elapsed_s": 2323,
+  "title": "多视图单",
+  "state": "running",
+  "step": null,
+  "steps_total": 30,
+  "phase": "采样生成",
+  "pct": null,
+  "elapsed_s": 8,
   "eta_s": null,
   "params": {
-   "octree": 384,
-   "steps": 50
+   "steps": 30,
+   "octree": 256
   },
-  "pct": 100,
-  "phase": null,
-  "result_mb": 11.45,
-  "state": "done",
-  "step": null,
-  "steps_total": 50,
-  "title": "第三单 · 单视图（透明底输入）",
-  "verdict": "判废：成品是地板片+头部，无躯干无腿。根因已查清，改走多视图路线。"
+  "result_mb": null,
+  "verdict": null
  },
  "notes": [
+  {
+   "t": "13:58",
+   "text": "第四单（多视图探针 30/256）已下单，三视图齐全，盯守中"
+  },
   {
    "t": "21:47",
    "text": "网页版看板上线，手机浏览器可直接打开、可加主屏"
