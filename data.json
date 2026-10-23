@@ -1,6 +1,6 @@
 {
- "updated_at": 1792735484,
- "updated_human": "14:04:44",
+ "updated_at": 1792735680,
+ "updated_human": "14:08:00",
  "bridge": {
   "online": true
  },
@@ -11,7 +11,7 @@
   "steps_total": 30,
   "phase": "采样生成",
   "pct": null,
-  "elapsed_s": 7,
+  "elapsed_s": 204,
   "eta_s": null,
   "params": {
    "steps": 30,
